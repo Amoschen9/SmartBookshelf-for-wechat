@@ -1,0 +1,25 @@
+  <view>{{t1}}</view>
+  <text class="text">设定时间：</text>
+
+<input maxlength="2" class="input" placeholder="时" 
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+  bindinput="change1"/>
+
+  <input maxlength="2" class="input" placeholder="分" 
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+  bindinput="change2"/>
+
+  <input maxlength="2" class="input" placeholder="秒" 
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+  bindinput="change3"/>
+
+  <text class="text1">闹钟时间：{{ah}}：{{am}}：{{as}} </text>
+  <view>设定灯号</view>
+<input bindinput="input1" maxlength="2" class="input1"></input>
+  <button class="bt1"  bindtap="send2">确定</button>
+  <button class="bt2"  bindtap="send"> 状态:{{status}}</button>
+
+
+ <button class="bt3"  bindtap="send1"> 响铃:{{status2}}</button> 
+
+<button class="bt4"  bindtap="send3"> {{chenshuo}}闹钟</button> 
